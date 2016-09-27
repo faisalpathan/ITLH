@@ -1,0 +1,324 @@
+body
+{
+    font-family: 'Oxygen', sans-serif;
+	  background-image: url("../images/bg.jpg");
+    padding:50px;
+	  overflow-x:hidden;
+}
+
+.carousel-showmanymoveone .carousel-control {
+  width: 4%;
+  background-image: none;
+}
+.carousel-showmanymoveone .carousel-control.left {
+  margin-left: 15px;
+}
+.carousel-showmanymoveone .carousel-control.right {
+  margin-right: 15px;
+}
+.carousel-showmanymoveone .cloneditem-1,
+.carousel-showmanymoveone .cloneditem-2,
+.carousel-showmanymoveone .cloneditem-3 {
+  display: none;
+}
+@media all and (min-width: 768px) {
+  .carousel-showmanymoveone .carousel-inner > .active.left,
+  .carousel-showmanymoveone .carousel-inner > .prev {
+    left: -50%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .active.right,
+  .carousel-showmanymoveone .carousel-inner > .next {
+    left: 50%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .left,
+  .carousel-showmanymoveone .carousel-inner > .prev.right,
+  .carousel-showmanymoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+    display: block;
+  }
+}
+@media all and (min-width: 768px) and (transform-3d), all and (min-width: 768px) and (-webkit-transform-3d) {
+  .carousel-showmanymoveone .carousel-inner > .item.active.right,
+  .carousel-showmanymoveone .carousel-inner > .item.next {
+    -webkit-transform: translate3d(50%, 0, 0);
+            transform: translate3d(50%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.active.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev {
+    -webkit-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+  .carousel-showmanymoveone .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    left: 0;
+  }
+}
+@media all and (min-width: 992px) {
+  .carousel-showmanymoveone .carousel-inner > .active.left,
+  .carousel-showmanymoveone .carousel-inner > .prev {
+    left: -25%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .active.right,
+  .carousel-showmanymoveone .carousel-inner > .next {
+    left: 25%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .left,
+  .carousel-showmanymoveone .carousel-inner > .prev.right,
+  .carousel-showmanymoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner .cloneditem-2,
+  .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
+    display: block;
+  }
+}
+@media all and (min-width: 992px) and (transform-3d), all and (min-width: 992px) and (-webkit-transform-3d) {
+  .carousel-showmanymoveone .carousel-inner > .item.active.right,
+  .carousel-showmanymoveone .carousel-inner > .item.next {
+    -webkit-transform: translate3d(25%, 0, 0);
+            transform: translate3d(25%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.active.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev {
+    -webkit-transform: translate3d(-25%, 0, 0);
+            transform: translate3d(-25%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+  .carousel-showmanymoveone .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    left: 0;
+  }
+}
+.container {
+  margin-bottom: 50px;
+}
+
+select {
+		border: 0 !important;  /*Removes border*/
+		-webkit-appearance: none;  /*Removes default chrome and safari style*/
+		-moz-appearance: none; /* Removes Default Firefox style*/
+        appearance:none;
+		background: #0088cc url(img/select-arrow.png) no-repeat 90% center;
+		width: 127px; /*Width of select dropdown to give space for arrow image*/
+		text-indent: 0.01px; /* Removes default arrow from firefox*/
+		text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+		color: #FFF;
+		border-radius: 15px;
+		padding: 5px;
+		box-shadow: inset 0 0 5px rgba(000,000,000, 0.5);
+	}
+select.option3
+	{
+		border-radius: 10px 0;
+	}
+.animtable
+{
+	transition: all .2s ease-in-out;
+}	
+.animtable:hover
+ {
+    font-weight: bold;
+	 transform: scale(1.1);
+}
+.inputs {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #EAEAEA;
+    background: -moz-linear-gradient(top, #FFF, #EAEAEA);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFF), color-stop(1.0, #FFF));
+    border: 1px solid #CACACA;
+    color: #444;
+    font-size: 1.4em;
+    margin: 0 0 25px;
+    padding: 5px 9px;
+    width: 260px;
+}
+
+.inputs:focus {
+    background: #FFF;
+    -webkit-box-shadow: 0 0 25px #CCC;
+    -moz-box-shadow: 0 0 25px #ccc;
+    box-shadow: 0 0 25px #CCC;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.dropdown-menu {
+    min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+    min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+    min-width: 600px;
+}
+.dropdown-menu li a {
+    padding: 5px 15px;
+    font-weight: 300;
+}
+.multi-column-dropdown {
+    list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+    display: block;
+    clear: both;
+    line-height: 1.428571429;
+    color: #333;
+    white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+    text-decoration: none;
+    color: #262626;
+    background-color: #999;
+}
+ 
+@media (max-width: 767px) {
+    .dropdown-menu.multi-column {
+        min-width: 240px !important;
+        overflow-x: hidden;
+    }
+}
+#link
+{
+  transition: all 0.1s;
+  text-decoration: none;
+ 
+}
+#link:hover
+{	
+	transform: scale(1.1);
+	border-color:black;
+	color:white;
+	border-top: 4px solid orchid;
+	border-bottom: 4px solid orchid;
+  
+}
+.anim
+{
+	transition: all 0.3s;
+}
+.anim:hover
+{
+	transform: scale(1.1);
+}
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: center;
+}
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 30px;
+}
+.myButton {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.myButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.myButton span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: -30px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.myButton:hover span {
+  padding-right: 25px;
+}
+
+.myButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.myButtonCancel {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.myButtonCancel span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.myButtonCancel span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: -30px;
+  left: -200px;
+  transition: 0.5s;
+}
+
+.myButtonCancel:hover span {
+  padding-right: 25px;
+}
+
+.myButtonCancel:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.myButtonsent {
+  margin: 0 auto;
+  font-size: 2.0rem;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: #009ac9;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.myButtonsent:hover {
+  background-color: #ffffff;
+  color: #009ac9;
+  border-color: #009ac9;
+}
