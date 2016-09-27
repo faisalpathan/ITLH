@@ -124,12 +124,12 @@ select.option3
 	}
 .animtable
 {
-	transition: all .2s ease-in-out;
+	font-weight:normal;
 }	
 .animtable:hover
  {
     font-weight: bold;
-	 transform: scale(1.1);
+	 
 }
 .inputs {
     -moz-border-radius: 5px;
