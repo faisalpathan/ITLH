@@ -48,7 +48,7 @@ body {
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="Home"><span class="glyphicon glyphicon-asterisk"></span>Home</a>
+    <a class="navbar-brand" href="Home">Home</a>
   </div>
   
   <div class="collapse navbar-collapse js-navbar-collapse">
