@@ -2,7 +2,7 @@
 @include('Wireframes.partials.header2')
 @section('content')
 <br/>
-<div class=" colo-md-12 container-fluid">
+<div class=" colo-md-12 container-fluid wow fadeIn">
       <div class="row">
         <div class="col-md-12 col-md-push-0">
           <!--Upper part-->
@@ -84,6 +84,10 @@
 			} );
 					
             </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+            <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
 @stop

@@ -3,7 +3,7 @@
 @section('content')
 <br/>
 
-        <div class="container well" style="border :1px solid black; padding-left:10px;padding-right:10px;padding-bottom:10px;padding-top:10px;">
+        <div class="container well wow fadeInUp" style="border :1px solid black; padding-left:10px;padding-right:10px;padding-bottom:10px;padding-top:10px;">
         <div class="container" style=" ">
         <h1>Xiaomi Redmi Note 3</h1>
         <div class="col-md-5" style="margin-bottom:20px; margin-left:-16px;">
@@ -48,7 +48,7 @@
     <br><br/>  
     
   </div>
-  <div class="row">
+  <div class="row wow fadeInUp">
     <div class="col-md-12">
       <div class="carousel carousel-showmanymoveone slide" id="carousel123">
         <div class="carousel-inner">
@@ -84,7 +84,7 @@
   </div>
   
    <br><br><br/><br/>
-   <div class="container ">
+   <div class="container wow fadeInUp well">
    <ul class="nav nav-tabs"> 
             <li class="active">
                 <a href="#tab1" data-toggle="tab">Specifications</a>
@@ -95,7 +95,7 @@
         </ul>
         <div class="tab-content">
             <div class="tab-pane active" id="tab1">
-                <table style="" border="1px dotted black" class="table  table-bordered">
+                <table style="" border="1px dotted black" class="table  table-bordered table-hover">
 <tbody>
 <tr class="animtable" style="height: 36px;">
 <td style="height: 36px; width: 44%;background-color: #f8f8ff;">&nbsp;OS</td>
@@ -233,6 +233,10 @@ $(document).ready(function()
                 });
         });
         </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+            <script>
+              new WOW().init();
+              </script>
         
     
 

@@ -215,6 +215,14 @@ select.option3
 {
 	transform: scale(1.1);
 }
+h1
+{
+  transition: all 0.3s;
+}
+h1:hover
+{
+  transform: scale(1.1);
+}
 .modal-body .form-horizontal .col-sm-2,
 .modal-body .form-horizontal .col-sm-10 {
     width: 100%
@@ -321,4 +329,11 @@ select.option3
   background-color: #ffffff;
   color: #009ac9;
   border-color: #009ac9;
+}
+img:hover
+{
+   box-shadow:
+                1px 1px black;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
 }

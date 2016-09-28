@@ -3,7 +3,7 @@
 @section('content')
 <br/>
 
-<div class="col-md-12   col-md-push-0 container-fluid text-justify">
+<div class="col-md-12   col-md-push-0 container-fluid text-justify wow fadeInUp">
       <div calss="col-md-12">
         <div class="col-md-3    well  container-fluid" style="border:1px solid ; border-radius:0px; height:630px;width:29%;">
           <h3 style=" margin-top:-10px;">Search Filter</h3>
@@ -11,7 +11,7 @@
             attribute set in the backend while creating categories and adding their
             attributes</p>
         </div> 
-        <div class="col-md-8 col-md-push-0 container-fluid">
+        <div class="col-md-8 col-md-push-0 container-fluid wow fadeInUp">
           <div class="col-md-12 ">
             <div class="col-md-12  well" style="border:1px solid ; border-radius:0px;">
               <h3 class="col-md-12 " style="top:-35px; left:-10px; ">Search Results</h3>
@@ -69,7 +69,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-12  col-md-pull-0 container" style="width:94%;">
+      <div class="col-md-12  col-md-pull-0 container wow fadeInUp" style="width:94%;">
         <div class="col-md-12 text-justify well well-lg" style="border:1px solid ; border-radius:0px;">
           <h3 class="col-md-12 " style="top:-35px; left:-10px; ">Top selling products</h3>
           <div class="col-md-3 well " style="border:1px solid; top:-10px; border:1px solid ; margin-left:-1.6%;">
@@ -89,6 +89,10 @@
     </div>
             <script src="js/jquery.min.js" ></script>
             <script src="js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+            <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
 @stop

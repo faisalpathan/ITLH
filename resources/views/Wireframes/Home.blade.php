@@ -1,19 +1,19 @@
 @extends('Wireframes.layout')
 @include('Wireframes.partials.header')
 @section('content')
-<div class="col-md-pull-0  col-md-12 container-fluid">
+<div class="col-md-pull-0  col-md-12 container-fluid wow fadeInUp">
             <div class="col-md-12 ">
                 <div class="col-md-12  text-justify well well-lg" style="border:1px solid; border-radius:0px;">
                     <div class="col-md-8">
                         <a href="#"><img src="images/mfimg1.jpg" class="img-responsive" style="border:1px solid ; border-radius:0px;"></a>
                     </div>
                     <div class="col-md-4">
-                        <a href="#"><img src="images/mfimg1.jpg" class="img-responsive" style="border:1px solid ; border-radius:0px;height:53%;"></a>
+                        <a href="#"><img src="images/mfimg2.jpg" class="img-responsive" style="border:1px solid ; border-radius:0px;height:49.7%;"></a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-pull-0  col-md-12  container-fluid">
+        <div class="col-md-pull-0  col-md-12  container-fluid wow fadeInUp">
             <div class="col-md-12 ">
                 <div class="col-md-12 text-justify well well-lg" style="border:1px solid ; border-radius:0px;">
                     <h2 class="col-md-12 " style="top:-35px; left:-10px; ">Top selling products</h2>
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div><br/>
-        <div class="col-md-pull-0  col-md-12  container-fluid">
+        <div class="col-md-pull-0  col-md-12  container-fluid wow fadeInUp">
             <div class="col-md-12 ">
                 <div class="col-md-12   text-justify well well-lg" style="border:1px solid ; border-radius:0px;">
                     <h2 class="col-md-12 " style="top:-35px; left:-10px; ">New products</h2>
@@ -56,6 +56,10 @@
 			<script src="js/modernizr.custom.js"></script>
 			<script src="js/toucheffects.js"></script>
 			<script src="js/script.js"></script>	
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+            <script>
+              new WOW().init();
+              </script>
  </body>
 </html>
 @stop

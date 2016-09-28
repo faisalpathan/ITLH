@@ -3,7 +3,7 @@
 @section('content')
 <br/>
 
-<div class=" col-md-12 container-fluid">
+<div class=" col-md-12 container-fluid wow fadeInUp">
       <div class="row">
         <div class="col-md-12 col-md-push-0">
           <!--Upper part-->
@@ -83,7 +83,7 @@
             <a href="signup" ><button type="button" class="btn btn-success btn-responsive col-md-1 col-md-push-1">Sign Up</button></a>
           </div>
         </div>
-        <div class=" colo-md-12 container-fluid">
+        <div class=" col-md-12 container-fluid wow fadeInUp">
           <div class="row">
             <div class="col-md-12 col-md-push-0">
               <!--Lower part-->
@@ -92,9 +92,9 @@
                   <h3>Checkout</h3>
                 </div>
                 <div class="col-md-12 table-responsive">
-                  <table id="example" class="table  table-bordered table-striped">
+                  <table id="example" class="table  table-bordered table-striped ">
                     <thead style="background-color:#bdbdbd;">
-                      <tr>
+                      <tr class="animtable">
                         <th>Product Name</th>
                         <th>Availability</th>
                         <th>Quantity</th>
@@ -104,12 +104,12 @@
                       </tr>
                     </thead>
                     <tfoot>
-                      <tr>
+                      <tr class="animtable"> 
                         <th id="FooterHidden"></th>
                       </tr>
                     </tfoot>
                     <tbody>
-                      <tr>
+                      <tr class="animtable">
                         <td>Xiaomi Redmi Note 3</td>
                         <td>In Stock</td>
                         <td>3</td>
@@ -117,7 +117,7 @@
                         <td>Cash On Delivery</td>
                         <td>Remove</td>
                       </tr>
-                      <tr>
+                      <tr class="animtable">
                         <td>Moto G4 Plus(32GB)</td>
                         <td>Out Of Stock</td>
                         <td>2</td>
@@ -125,7 +125,7 @@
                         <td>Cash On Delivery</td>
                         <td>Remove</td>
                       </tr>
-                      <tr>
+                      <tr class="animtable">
                         <td>Moto Z</td>
                         <td>In Stock</td>
                         <td>1</td>
@@ -173,7 +173,11 @@
 				} );
 			} );
 					
-            </script>                                                                                                                                                                                                      
+            </script>                                                                                                                                               
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+            <script>
+              new WOW().init();
+              </script>                                                       
 </body>
 </html>
 @stop

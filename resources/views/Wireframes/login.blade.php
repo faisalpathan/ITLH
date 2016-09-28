@@ -47,7 +47,7 @@
             </div>
             <div class="form-group col-md-12">
               <div class=" col-md-7 col-md-push-4">
-                <a href="myprofile"><button id="signin" class="btn btn-success  btn-responsive" name="resetlink">Log in</button></a>
+                <a href="orderhistory"><button id="signin" class="btn btn-success  btn-responsive" name="resetlink">Log in</button></a>
               </div>
             </div>
             <div class="form-group col-md-12">
@@ -62,6 +62,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/jquery.min.js" ></script>
             <script src="js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+            <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
 @stop

@@ -2,7 +2,7 @@
 @include('Wireframes.partials.header')
 @section('content')
 <br/>
-<div class="col-md-push-1 container-fluid">
+<div class="col-md-push-1 container-fluid wow fadeIn">
       <div class="col-md-push-0 well  col-md-12" style="border:1px solid; border-radius:0px;">
         <!--First Part-->
         <div class="col-md-8" style="margin-top:-2.6%;margin-left:-2%;">
@@ -62,10 +62,10 @@
             <!-- Text input-->
             <div class="form-group col-md-12">
               <div class="col-md-5 col-md-pull-1">
-                <label class="control-label" style="font-size:15px;" for="email">Email</label>
+                <label class="control-label" style="font-size:15px;" for="email" >Email</label>
               </div>
               <div class="col-md-7 col-md-pull-2">
-                <input id="email" name="email" placeholder="" class="form-control input-md" type="email">
+                <input id="email" name="email" placeholder="" class="form-control input-md"  type="email" required>
               </div>
             </div>
             <!-- Text input-->
@@ -125,6 +125,10 @@
     });
 });
             </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+            <script>
+              new WOW().init();
+              </script>
            
 </body>
 </html>

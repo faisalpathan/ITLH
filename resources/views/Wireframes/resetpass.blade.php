@@ -3,7 +3,7 @@
 @section('content')
 <br/>
 
-<div class="col-md-push-1 container-fluid">
+<div class="col-md-push-1 container-fluid wow fadeIn">
       <div class="col-md-push-0 well  col-md-12" style="border:1px solid; border-radius:0px;">
         <!--First Part-->
         <div class="col-md-12">
@@ -55,8 +55,12 @@
       </div>
     </div>
 
-<script src="js/jquery.min.js" ></script>
+            <script src="js/jquery.min.js" ></script>
             <script src="js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+            <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
 @stop

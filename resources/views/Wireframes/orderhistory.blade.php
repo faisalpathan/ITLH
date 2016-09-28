@@ -14,7 +14,7 @@
             <div class="col-md-12 table-responsive">
               <table id="example" class="table  table-bordered table-striped">
                 <thead style="background-color:#bdbdbd;">
-                  <tr>
+                  <tr class="animtable">
                     <th>Sr No</th>
                     <th>Product Name</th>
                     <th>Categeory</th>
@@ -25,12 +25,12 @@
                   </tr>
                 </thead>
                 <tfoot>
-                  <tr>
+                  <tr class="animtable">
                     <th id="FooterHidden"></th>
                   </tr>
                 </tfoot>
                 <tbody>
-                  <tr>
+                  <tr class="animtable">
                     <td>1</td>
                     <td>Redmin Note 3</td>
                     <td>Mobiles</td>
@@ -39,7 +39,7 @@
                     <td>12000/-</td>
                     <td>Pending</td>
                   </tr>
-                  <tr>
+                  <tr class="animtable">
                     <td>2</td>
                     <td>Moto G4 plus</td>
                     <td>Mobiles</td>
@@ -48,7 +48,7 @@
                     <td>13000/-</td>
                     <td>Delivered</td>
                   </tr>
-                  <tr>
+                  <tr class="animtable">
                     <td>3</td>
                     <td>Moto Z4</td>
                     <td>Mobiles</td>
@@ -79,6 +79,10 @@
 			} );
 			
             </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+            <script>
+              new WOW().init();
+              </script>
 
 			</body>
 </html>

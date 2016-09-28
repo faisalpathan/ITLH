@@ -67,210 +67,210 @@ body {
           </li>
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Features</li>
-              <li><a href="#">Auto Carousel</a></li>
-                            <li><a href="#">Carousel Control</a></li>
-                            <li><a href="#">Left & Right Navigation</a></li>
-              <li><a href="#">Four Columns Grid</a></li>
+              <li class="dropdown-header">Brands</li>
+              <li><a href="#">We have it all</a></li>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">HP</a></li>
+              <li><a href="#">Lenovo</a></li>
               <li class="divider"></li>
-              <li class="dropdown-header">Fonts</li>
-                            <li><a href="#">Glyphicon</a></li>
-              <li><a href="#">Google Fonts</a></li>
+              <li class="dropdown-header">Acer</li>
+                            <li><a href="#">Asus</a></li>
+              <li><a href="#">Niantic</a></li>
             </ul>
           </li>
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Plus</li>
-              <li><a href="#">Navbar Inverse</a></li>
-              <li><a href="#">Pull Right Elements</a></li>
-              <li><a href="#">Coloured Headers</a></li>                            
-              <li><a href="#">Primary Buttons & Default</a></li>              
+              <li class="dropdown-header">Compaq</li>
+              <li><a href="#">Micromax</a></li>
+              <li><a href="#">Xiaomi</a></li>
+              <li><a href="#">Le Eco</a></li>                            
+              <li><a href="#">Karbonn</a></li>              
             </ul>
           </li>
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Much more</li>
-                            <li><a href="#">Easy to Customize</a></li>
-              <li><a href="#">Calls to action</a></li>
-              <li><a href="#">Custom Fonts</a></li>
-              <li><a href="#">Slide down on Hover</a></li>                         
+              <li class="dropdown-header">One plus Series</li>
+                            <li><a href="#">Nokia</a></li>
+              <li><a href="#">Apple</a></li>
+              <li><a href="#">Macbook</a></li>
+              <li><a href="#">Ubuntu</a></li>                         
             </ul>
           </li>
         </ul>       
       </li>
       <li class="dropdown mega-dropdown">
-        <a href="#" class="dropdown-toggle disabled" data-toggle="dropdown"><span class="glyphicon glyphicon-asterisk"></span>Laptops<span class="caret"></span></a>        
+        <a href="products" class="dropdown-toggle disabled" data-toggle="dropdown"><span class="glyphicon glyphicon-asterisk"></span>Laptop <span class="caret"></span></a>        
         <ul class="dropdown-menu mega-dropdown-menu">
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Laptops Collection</li>                            
-                             <!-- /.carousel -->
+              <li class="dropdown-header">Laptop Collection</li>                            
+                            <!-- /.carousel -->
                             <li class="divider"></li>
                             <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
             </ul>
           </li>
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Features</li>
-              <li><a href="#">Auto Carousel</a></li>
-                            <li><a href="#">Carousel Control</a></li>
-                            <li><a href="#">Left & Right Navigation</a></li>
-              <li><a href="#">Four Columns Grid</a></li>
+              <li class="dropdown-header">Brands</li>
+              <li><a href="#">We have it all</a></li>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">HP</a></li>
+              <li><a href="#">Lenovo</a></li>
               <li class="divider"></li>
-              <li class="dropdown-header">Fonts</li>
-                            <li><a href="#">Glyphicon</a></li>
-              <li><a href="#">Google Fonts</a></li>
+              <li class="dropdown-header">Acer</li>
+                            <li><a href="#">Asus</a></li>
+              <li><a href="#">Niantic</a></li>
             </ul>
           </li>
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Plus</li>
-              <li><a href="#">Navbar Inverse</a></li>
-              <li><a href="#">Pull Right Elements</a></li>
-              <li><a href="#">Coloured Headers</a></li>                            
-              <li><a href="#">Primary Buttons & Default</a></li>              
+              <li class="dropdown-header">Compaq</li>
+              <li><a href="#">Micromax</a></li>
+              <li><a href="#">Xiaomi</a></li>
+              <li><a href="#">Le Eco</a></li>                            
+              <li><a href="#">Karbonn</a></li>              
             </ul>
           </li>
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Much more</li>
-                            <li><a href="#">Easy to Customize</a></li>
-              <li><a href="#">Calls to action</a></li>
-              <li><a href="#">Custom Fonts</a></li>
-              <li><a href="#">Slide down on Hover</a></li>                         
+              <li class="dropdown-header">One plus Series</li>
+                            <li><a href="#">Nokia</a></li>
+              <li><a href="#">Apple</a></li>
+              <li><a href="#">Macbook</a></li>
+              <li><a href="#">Ubuntu</a></li>                         
             </ul>
           </li>
         </ul>       
       </li>
       <li class="dropdown mega-dropdown">
-        <a href="#" class="dropdown-toggle disabled" data-toggle="dropdown"><span class="glyphicon glyphicon-asterisk"></span>Tablets<span class="caret"></span></a>        
+        <a href="products" class="dropdown-toggle disabled" data-toggle="dropdown"><span class="glyphicon glyphicon-asterisk"></span>Tablets<span class="caret"></span></a>        
         <ul class="dropdown-menu mega-dropdown-menu">
           <li class="col-sm-3">
             <ul>
               <li class="dropdown-header">Tablets Collection</li>                            
-                             <!-- /.carousel -->
+                            <!-- /.carousel -->
                             <li class="divider"></li>
                             <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
             </ul>
           </li>
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Features</li>
-              <li><a href="#">Auto Carousel</a></li>
-                            <li><a href="#">Carousel Control</a></li>
-                            <li><a href="#">Left & Right Navigation</a></li>
-              <li><a href="#">Four Columns Grid</a></li>
+              <li class="dropdown-header">Brands</li>
+              <li><a href="#">We have it all</a></li>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">HP</a></li>
+              <li><a href="#">Lenovo</a></li>
               <li class="divider"></li>
-              <li class="dropdown-header">Fonts</li>
-                            <li><a href="#">Glyphicon</a></li>
-              <li><a href="#">Google Fonts</a></li>
+              <li class="dropdown-header">Acer</li>
+                            <li><a href="#">Asus</a></li>
+              <li><a href="#">Niantic</a></li>
             </ul>
           </li>
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Plus</li>
-              <li><a href="#">Navbar Inverse</a></li>
-              <li><a href="#">Pull Right Elements</a></li>
-              <li><a href="#">Coloured Headers</a></li>                            
-              <li><a href="#">Primary Buttons & Default</a></li>              
+              <li class="dropdown-header">Compaq</li>
+              <li><a href="#">Micromax</a></li>
+              <li><a href="#">Xiaomi</a></li>
+              <li><a href="#">Le Eco</a></li>                            
+              <li><a href="#">Karbonn</a></li>              
             </ul>
           </li>
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Much more</li>
-                            <li><a href="#">Easy to Customize</a></li>
-              <li><a href="#">Calls to action</a></li>
-              <li><a href="#">Custom Fonts</a></li>
-              <li><a href="#">Slide down on Hover</a></li>                         
+              <li class="dropdown-header">One plus Series</li>
+                            <li><a href="#">Nokia</a></li>
+              <li><a href="#">Apple</a></li>
+              <li><a href="#">Macbook</a></li>
+              <li><a href="#">Ubuntu</a></li>                         
             </ul>
           </li>
         </ul>       
       </li>
-      <li class="dropdown mega-dropdown">
-        <a href="#" class="dropdown-toggle disabled" data-toggle="dropdown"><span class="glyphicon glyphicon-asterisk"></span>Processors <span class="caret"></span></a>        
+        <li class="dropdown mega-dropdown">
+        <a href="products" class="dropdown-toggle disabled" data-toggle="dropdown"><span class="glyphicon glyphicon-asterisk"></span>Motherboard<span class="caret"></span></a>        
         <ul class="dropdown-menu mega-dropdown-menu">
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Processors Collection</li>                            
-                             <!-- /.carousel -->
+              <li class="dropdown-header">Motherboards Collection</li>                            
+                            <!-- /.carousel -->
                             <li class="divider"></li>
                             <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
             </ul>
           </li>
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Features</li>
-              <li><a href="#">Auto Carousel</a></li>
-                            <li><a href="#">Carousel Control</a></li>
-                            <li><a href="#">Left & Right Navigation</a></li>
-              <li><a href="#">Four Columns Grid</a></li>
+              <li class="dropdown-header">Brands</li>
+              <li><a href="#">We have it all</a></li>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">HP</a></li>
+              <li><a href="#">Lenovo</a></li>
               <li class="divider"></li>
-              <li class="dropdown-header">Fonts</li>
-                            <li><a href="#">Glyphicon</a></li>
-              <li><a href="#">Google Fonts</a></li>
+              <li class="dropdown-header">Acer</li>
+                            <li><a href="#">Asus</a></li>
+              <li><a href="#">Niantic</a></li>
             </ul>
           </li>
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Plus</li>
-              <li><a href="#">Navbar Inverse</a></li>
-              <li><a href="#">Pull Right Elements</a></li>
-              <li><a href="#">Coloured Headers</a></li>                            
-              <li><a href="#">Primary Buttons & Default</a></li>              
+              <li class="dropdown-header">Compaq</li>
+              <li><a href="#">Micromax</a></li>
+              <li><a href="#">Xiaomi</a></li>
+              <li><a href="#">Le Eco</a></li>                            
+              <li><a href="#">Karbonn</a></li>              
             </ul>
           </li>
           <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Much more</li>
-                            <li><a href="#">Easy to Customize</a></li>
-              <li><a href="#">Calls to action</a></li>
-              <li><a href="#">Custom Fonts</a></li>
-              <li><a href="#">Slide down on Hover</a></li>                         
+              <li class="dropdown-header">One plus Series</li>
+                            <li><a href="#">Nokia</a></li>
+              <li><a href="#">Apple</a></li>
+              <li><a href="#">Macbook</a></li>
+              <li><a href="#">Ubuntu</a></li>                         
             </ul>
           </li>
         </ul>       
       </li>
       
             <li class="dropdown mega-dropdown">
-          <a href="#" class="dropdown-toggle disabled" data-toggle="dropdown"><span class="glyphicon glyphicon-asterisk"></span>Motherboards<span class="caret"></span></a>        
+        <a href="products" class="dropdown-toggle disabled" data-toggle="dropdown"><span class="glyphicon glyphicon-asterisk"></span>Processors<span class="caret"></span></a>        
         <ul class="dropdown-menu mega-dropdown-menu">
           <li class="col-sm-3">
-              <ul>
-              <li class="dropdown-header">Features</li>
-              <li><a href="#">Auto Carousel</a></li>
-                            <li><a href="#">Carousel Control</a></li>
-                            <li><a href="#">Left & Right Navigation</a></li>
-              <li><a href="#">Four Columns Grid</a></li>
-              <li class="divider"></li>
-              <li class="dropdown-header">Fonts</li>
-                            <li><a href="#">Glyphicon</a></li>
-              <li><a href="#">Google Fonts</a></li>
-            </ul>
-          </li>
-          <li class="col-sm-3">
             <ul>
-              <li class="dropdown-header">Plus</li>
-              <li><a href="#">Navbar Inverse</a></li>
-              <li><a href="#">Pull Right Elements</a></li>
-              <li><a href="#">Coloured Headers</a></li>                            
-              <li><a href="#">Primary Buttons & Default</a></li>              
-            </ul>
-          </li>
-          <li class="col-sm-3">
-            <ul>
-              <li class="dropdown-header">Much more</li>
-                            .00333.<li><a href="#">Easy to Customize</a></li>
-              <li><a href="#">Calls to action</a></li>
-              <li><a href="#">Custom Fonts</a></li>
-              <li><a href="#">Slide down on Hover</a></li>                         
-            </ul>
-          </li>
-                    <li class="col-sm-3">
-              <ul>
-              <li class="dropdown-header">MotherBoard Collection</li>                            
+              <li class="dropdown-header">Processors Collection</li>                            
                             <!-- /.carousel -->
                             <li class="divider"></li>
-                            <li><a href="#">View all Collection<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                            <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+            </ul>
+          </li>
+          <li class="col-sm-3">
+            <ul>
+              <li class="dropdown-header">Brands</li>
+              <li><a href="#">We have it all</a></li>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">HP</a></li>
+              <li><a href="#">Lenovo</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">Acer</li>
+                            <li><a href="#">Asus</a></li>
+              <li><a href="#">Niantic</a></li>
+            </ul>
+          </li>
+          <li class="col-sm-3">
+            <ul>
+              <li class="dropdown-header">Compaq</li>
+              <li><a href="#">Micromax</a></li>
+              <li><a href="#">Xiaomi</a></li>
+              <li><a href="#">Le Eco</a></li>                            
+              <li><a href="#">Karbonn</a></li>              
+            </ul>
+          </li>
+          <li class="col-sm-3">
+            <ul>
+              <li class="dropdown-header">One plus Series</li>
+                            <li><a href="#">Nokia</a></li>
+              <li><a href="#">Apple</a></li>
+              <li><a href="#">Macbook</a></li>
+              <li><a href="#">Ubuntu</a></li>                         
             </ul>
           </li>
         </ul>       
