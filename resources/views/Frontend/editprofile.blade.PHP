@@ -1,12 +1,13 @@
-@extends('Wireframes.layout')
-@include('Wireframes.partials.header')
+@extends('Frontend.layout')
+@include('Frontend.partials.header1')
 @section('content')
 <br/>
-<div class="col-md-push-1 container-fluid wow fadeIn">
+
+ <div class="col-md-push-1 container-fluid wow fadeIn">
       <div class="col-md-push-0 well  col-md-12" style="border:1px solid; border-radius:0px;">
         <!--First Part-->
         <div class="col-md-8" style="margin-top:-2.6%;margin-left:-2%;">
-          <h3>Sign Up</h3>
+          <h3>My Profile/Edit</h3>
           <br>
         </div>
         <div class="col-md-6 text-center">
@@ -19,7 +20,7 @@
               <div class="col-md-7 col-md-pull-2">
                 <input id="Fname" name="Fname" placeholder="" class="form-control input-md" type="text">
               </div>
-            </div>
+            </div><br/>
             <!-- Text input-->
             <div class="form-group col-md-12">
               <div class="col-md-5 col-md-pull-1">
@@ -28,7 +29,7 @@
               <div class="col-md-7 col-md-pull-2">
                 <input id="Lname" name="Lname" placeholder="" class="form-control input-md" type="text">
               </div>
-            </div>
+            </div><br/>
             <!-- Multiple Radios (inline) -->
             <div class="form-group col-md-12">
               <div class="col-md-5 col-md-pull-1">
@@ -40,7 +41,7 @@
                 <label class="radio-inline col-md-push-1" for="radios-1">
                   <input name="radios" id="radios-1" value="female" style="font-size:15px;" type="radio">Female</label>
               </div>
-            </div>
+            </div><br/>
             <div class="form-group col-md-12 ">
               <div class="col-md-5 col-md-pull-1">
                 <label class="control-label" for="date">Date Of Birth</label>
@@ -48,8 +49,7 @@
               <div class=" col-md-7 col-md-pull-2">
                 <input type="text" class="datepicker" style="width:87%;">                
                 </div>
-              </div>
-           
+              </div><br/>
             <!-- Text input-->
             <div class="form-group col-md-12">
               <div class="col-md-5 col-md-pull-1">
@@ -58,34 +58,16 @@
               <div class="col-md-7 col-md-pull-2">
                 <input id="ContactNum" name="ContactNum" placeholder="" class="form-control input-md" type="text">
               </div>
-            </div>
+            </div><br/>
             <!-- Text input-->
             <div class="form-group col-md-12">
               <div class="col-md-5 col-md-pull-1">
-                <label class="control-label" style="font-size:15px;" for="email" >Email</label>
+                <label class="control-label" style="font-size:15px;" for="email">Email Address</label>
               </div>
               <div class="col-md-7 col-md-pull-2">
-                <input id="email" name="email" placeholder="" class="form-control input-md"  type="email" required>
+                <input id="email" name="email" placeholder="" class="form-control input-md" type="email">
               </div>
-            </div>
-            <!-- Text input-->
-            <div class="form-group col-md-12">
-              <div class="col-md-5 col-md-pull-1">
-                <label class="control-label" style="font-size:15px;" for="password">Password</label>
-              </div>
-              <div class="col-md-7 col-md-pull-2">
-                <input id="password" name="password" placeholder="" class="form-control input-md" type="password">
-              </div>
-            </div>
-            <!-- Text input-->
-            <div class="form-group col-md-12">
-              <div class="col-md-5 col-md-pull-1">
-                <label class="control-label" style="font-size:15px;" for="Re-password">Re-enter Password</label>
-              </div>
-              <div class="col-md-7 col-md-pull-2">
-                <input id="Re-password" name="Re-password" placeholder="" class="form-control input-md" type="password">
-              </div>
-            </div>
+            </div><br/>
           </form>
         </div>
         <div class="col-md-6 ">
@@ -97,26 +79,49 @@
             <div class="col-md-7 col-md-pull-2">
               <textarea rows="4" class="col-md-12" name="permanentaddress"></textarea>
             </div>
+          </div><br/>
+          <div class="col-md-12">
+            <!--Pincode-->
+            <div class="form-group">
+              <div>
+                <br>
+              </div>
+              <div class="col-md-4 col-md-pull-1">
+                <label class="control-label" style="font-size:15px;" for="radios">Pincode</label>
+              </div>
+              <div class="col-md-8 col-md-pull-1">
+                <input type="text" name="pincode" class="col-md-8 ">
+              </div>
+            </div><br/>
           </div>
           <!-- Button -->
           <div class="col-md-12">
             <!--DoBreak-->
-            <br>            <br>            <br>            <br>            <br>            <br>            <br>            <br>            <br>            <br>            <br>            <br><br>
-            <div class="form-group col-md-6 col-md-pull-2 ">
-              <a href="myprofile" ><button id="signup" name="signup" class="btn btn-success">Sign Up</button></a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="form-group col-md-7 col-md-pull-1 ">
+              <button id="save" name="save" class="btn btn-success">Save</button>
             </div>
             <!-- Button -->
-            <div class="form-group col-md-6 col-md-pull-3">
+            <div class="form-group col-md-5 col-md-pull-4">
               <button id="cancle" name="cancle" class="btn btn-success">Cancel</button>
             </div>
           </div>
         </div>
       </div>
-    </div>           
-		<script src="js/jquery.min.js" ></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-		 <script>
+    </div>
+
+<script src="js/jquery.min.js" ></script>
+            <script src="js/bootstrap.min.js"></script>
+			 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+     <script>
                $(document).ready(function () {
     $(".datepicker").datepicker({
         showOn: "button",
@@ -129,7 +134,7 @@
             <script>
               new WOW().init();
               </script>
-           
+       
 </body>
 </html>
 @stop

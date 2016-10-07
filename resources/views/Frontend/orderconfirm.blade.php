@@ -1,5 +1,5 @@
-@extends('Wireframes.layout')
-@include('Wireframes.partials.header2')
+@extends('Frontend.layout')
+@include('Frontend.partials.header2')
 @section('content')
 <br/>
 <div class=" colo-md-12 container-fluid wow fadeIn">

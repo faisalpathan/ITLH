@@ -1,9 +1,9 @@
-@extends('Wireframes.layout')
-@include('Wireframes.partials.header2')
+@extends('Frontend.layout')
+@include('Frontend.partials.header2')
 @section('content')
 <br/>
 
-            <div class=" colo-md-12 container-fluid">
+            <div class=" col-md-12 container-fluid">
       <div class="row">
         <div class="col-md-12 col-md-push-0">
           <!--Lower part-->

@@ -11,6 +11,8 @@
 |
 */
 
+//front end
+
 Route::get('/','MyController@Home');
 Route::get('/Home','MyController@Home');
 Route::get('/products','MyController@products');
@@ -24,3 +26,18 @@ Route::get('/login','MyController@login');
 Route::get('/orderhistory','MyController@orderhistory');
 Route::get('/myprofile','MyController@myprofile');
 Route::get('/editprofile','MyController@editprofile');
+
+//back end
+
+Route::get('/dashboard','MyController@dashboard');
+Route::get('/orders','MyController@orders');
+Route::get('/categories','MyController@categories');
+Route::get('/addcategory','MyController@addcategory');
+Route::get('/editcategory','MyController@editcategory');
+Route::get('/listattributes','MyController@listattributes');
+Route::get('/categoryproductlist','MyController@categoryproductlist');
+Route::get('/backproducts','MyController@backproducts');
+Route::get('/addproduct','MyController@addproduct');
+Route::get('/editproduct','MyController@editproduct');
+Route::get('/banners','MyController@banners');
+Route::get('/staticpages','MyController@staticpages');

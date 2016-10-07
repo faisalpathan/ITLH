@@ -1,5 +1,5 @@
-@extends('Wireframes.layout')
-@include('Wireframes.partials.header')
+@extends('Frontend.layout')
+@include('Frontend.partials.header')
 @section('content')
 <br/>
 <div class="col-md-push-1 container-fluid">

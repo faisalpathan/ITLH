@@ -1,5 +1,5 @@
-@extends('Wireframes.layout')
-@include('Wireframes.partials.header')
+@extends('Frontend.layout')
+@include('Frontend.partials.header')
 @section('content')
 <div class="col-md-pull-0  col-md-12 container-fluid wow fadeInUp">
             <div class="col-md-12 ">
